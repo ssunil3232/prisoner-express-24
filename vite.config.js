@@ -7,7 +7,7 @@ import { BootstrapVueNextResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.DEPLOY === "github" ? '/prisoner-express-24/' : './',
+  base: process.env.DEPLOY === "github" ? '/vue-nicorn-project/' : './',
   plugins: [
     vue(),
     VitePWA({
