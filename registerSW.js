@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/prisoner-express-24/sw.js', { scope: '/prisoner-express-24/' })})}
